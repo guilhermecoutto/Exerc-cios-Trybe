@@ -1,10 +1,7 @@
-const myName = "guilherme";
-const birthCity = "santos";
-birthCity = "sao vicente"; 
-let birthYear = 2003;
-birthYear = 2030;
-console.log(myName);
-console.log(birthCity);
-console.log(birthYear);
-/*Comando da erro pois uma constante não pode ser alterada o valor*\
+const base = 5;
+const height = 8;
+const area = base * height; 
+console.log(area);
+const perimeter = height * 2 + base * 2;
+console.log(perimeter);
 
