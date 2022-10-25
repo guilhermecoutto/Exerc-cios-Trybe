@@ -14,3 +14,4 @@ let names = {
   for (let index in car) {
     console.log(index + ": " + car[index])
   }
+  
