@@ -1,5 +1,6 @@
 const filho = document.createElement("h1");
 filho.innerText = "Exercício - JavaScript DOM";
+filho.className = "title"
 document.body.appendChild(filho);
 
 const filho2 = document.createElement("main");
@@ -40,7 +41,10 @@ for (let num in  numeros){
 for (let index = 1; index<= 3; index++){
     const filho9 = document.createElement("h3")
     filho9.innerText = "Show" + index;
+    filho9.className = "description"
     filho2.appendChild(filho9)
 }
+const rmfilho5 = document.getElementsByTagName("section")[0];
+      filho2.removeChild(rmfilho5);
 
 
