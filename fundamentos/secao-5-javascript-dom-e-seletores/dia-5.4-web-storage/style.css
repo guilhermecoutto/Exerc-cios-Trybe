@@ -1,0 +1,28 @@
+body{
+    margin: 10px;
+    margin-left: 50px;
+}
+#cordefundo {
+    position: absolute;
+    top: 84px ;
+}
+#branca {
+    position: absolute;
+    top: 100px;
+}
+#preta {
+    position: absolute;
+    top: 120px;
+}
+#verde {
+    position: absolute;
+    top: 140px;
+}
+#azul {
+    position: absolute;
+    top: 160px;
+}
+#amarelo {
+    position: absolute;
+    top: 180px;
+}
